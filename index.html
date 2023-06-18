@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow" />
+  <title>HANA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- 匯入fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/dropdown.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="topbar">
+    <h1 class="logo"><a href="#"><img src="images/header/HANAlogo-01.png" alt=""></a></h1>
+    <ul class="icon">
+      <li><a class="search" href="#"></a></li>
+      <li><a class="cart" href="#"></a></li>
+      <li><a class="information" href="#"></a></li>
+    </ul>
+    <!-- class="navigation-wrap start-header -->
+    <div id="menubar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- ml-auto -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">NEW IN<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">0618新到貨</a>
+                      <a class="dropdown-item" href="#">下殺慶端午</a>
+                      <a class="dropdown-item" href="#">韓國新品</a>
+                      <a class="dropdown-item" href="#">火熱流行飾品</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">上身<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">襯衫</a>
+                      <a class="dropdown-item" href="#">T-shirt</a>
+                      <a class="dropdown-item" href="#">背心</a>
+                      <a class="dropdown-item" href="#">針織</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <!-- data-toggle="dropdown"功能是讓手滑過去後自動下拉選單 -->
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">下身<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">短裙</a>
+                      <a class="dropdown-item" href="#">長裙</a>
+                      <a class="dropdown-item" href="#">短褲</a>
+                      <a class="dropdown-item" href="#">長褲</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">連身<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">背心褲/裙</a>
+                      <a class="dropdown-item" href="#">吊帶裙/褲n</a>
+                      <a class="dropdown-item" href="#">連身裙/褲</a>
+                      <a class="dropdown-item" href="#">洋裝</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">套裝<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">上班族/正式</a>
+                      <a class="dropdown-item" href="#">休閒套裝</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">罩衫/外套<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">針織外套</a>
+                      <a class="dropdown-item" href="#">防曬罩衫</a>
+                      <a class="dropdown-item" href="#">西裝外套</a>
+                      <a class="dropdown-item" href="#">休閒外套</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">包包<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">後背包</a>
+                      <a class="dropdown-item" href="#">手提包</a>
+                      <a class="dropdown-item" href="#">托特包</a>
+                      <a class="dropdown-item" href="#">斜跨包</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">鞋子<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">夾腳拖鞋</a>
+                      <a class="dropdown-item" href="#">短靴</a>
+                      <a class="dropdown-item" href="#">長靴</a>
+                      <a class="dropdown-item" href="#">涼鞋</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">飾品<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">耳環</a>
+                      <a class="dropdown-item" href="#">項鍊</a>
+                      <a class="dropdown-item" href="#">手鍊</a>
+                      <a class="dropdown-item" href="#">戒指</a>
+                      <a class="dropdown-item" href="#">髮飾配件</a>
+                    </div>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                      aria-haspopup="true" aria-expanded="false">韓國小物<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">小兔壓克力吊飾</a>
+                      <a class="dropdown-item" href="#">Care Bears收納架</a>
+                      <a class="dropdown-item" href="#">韓國蠟筆小新一次性傻瓜相機</a>
+                      <a class="dropdown-item" href="#">韓國SAEIP乾洗手噴霧</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="banner1">
+      <div class="container-fluid main">
+        <div id="myCarousel" class="carousel carousel-fade slide" data-pause="false" data-interval="3000">
+          <div class="carousel-inner" role="listbox">
+            <div class="item active background a"></div>
+            <!-- <div class="item background b"></div>
+            <div class="item background c"></div> -->
+          </div>
+        </div>
+        <div class="covertext">
+          <div class="col-xs-12 explore">
+            <a href="#"><button type="button" class="btn btn-lg explorebtn">點我看商品</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="banner2">
+      <div class="wrapper">
+        <!-- <div class="square_wrapper_01"> -->
+        <div class="square_one"></div>
+        <div class="square_two"></div>
+        <!-- </div> -->
+        <div class="square_wrapper_02">
+          <div class="square_three"></div>
+        </div>
+        <!-- <div class="square_wrapper_03"> -->
+        <div class="square_four"></div>
+        <div class="square_five"></div>
+        <!-- </div> -->
+        <div class="square_six"></div>
+        <!-- <div class="square_wrapper_04"> -->
+        <div class="square_seven"></div>
+        <div class="square_eight"></div>
+        <!-- </div> -->
+        <div class="copywriting">
+          <img class="textline one" src="images/section/banner_decoration-07.png" alt="">
+          <h4 class="text">Blessed with confidence.<br>All you've had now is perfect for you.<br>Be satisfied and
+            happy.<br>Then the
+            miracle is coming.</h4>
+          <img class="textline two" src="images/section/banner_decoration-07.png" alt="">
+        </div>
+        <img id="gray" class="flower gray" src="images/section/banner_decoration-08.png" alt="">
+        <img id="white" class="flower white" src="images/section/banner_decoration-09.png" alt="">
+        <!-- <div class="decoration wrapper1"> -->
+        <img id="deepgray_1" class="flower deepgray_1" src="images/section/banner_decoration-11.png" alt="">
+        <!-- <div class="linewrapper01"> -->
+        <div id="moving_1" class="line1"></div>
+        <div id="moving_2" class="line2"></div>
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="decoration wrapper2"> -->
+        <img id="deepgray_2" class="flower deepgray_2" src="images/section/banner_decoration-11.png" alt="">
+        <div id="moving_3" class="line3"></div>
+        <!-- </div> -->
+
+        <!-- <div class="image"> -->
+        <img class="image1 smoove" data-move-x="500px" data-rotate="-30deg" src="images/section/banner2_1-1.png"
+          alt="">
+        <img class="image2 smoove" data-move-x="-1000px" data-rotate="30deg" src="images/section/banner2_2.jpeg"
+          alt="">
+        <img class="image3 smoove" data-move-x="500px" data-rotate="-15deg" src="images/section/banner_3-1.png" alt="">
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <section id="banner3">
+      <div class="wrapper">
+        <div class="square_one"></div>
+        <div class="square_two"></div>
+        <div class="square_three"></div>
+        <div class="square_four"></div>
+        <div class="square_five"></div>
+        <div class="square_six"></div>
+        <img id="white_2" class="flower white" src="images/section/banner_decoration-09.png" alt="">
+        <img id="deepgray2_1" class="flower deepgray_1" src="images/section/banner_decoration-11.png" alt="">
+        <div id="moving_4" class="line4"></div>
+        <img id="gray_2" class="flower gray_2" src="images/section/banner_decoration-08.png" alt="">
+        <img id="deepgray2_2" class="flower deepgray_2" src="images/section/banner_decoration-11.png" alt="">
+        <div id="moving_5" class="line5"></div>
+        <div id="moving_6" class="line6"></div>
+        <img class="image1 smoove" data-move-x="-500px" data-rotate="-30deg" src="images/section/banner3-1.jpeg"
+          alt="">
+        <img class="image2 smoove" data-move-x="200px" data-rotate="30deg" src="images/section/banner3-2.jpeg" alt="">
+        <img class="quote_1" src="images/section/quote_1.png" alt="">
+        <img class="quote_2" src="images/section/quote_2.png" alt="">
+        <div class="copywriting">
+          <h4 class="word_01">A girl should be two things : classy and fabulous.</h4>
+          <h4 class="word_02">—Coco Chanel</h4>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="collection">
+      <div class="container_1 collection">
+        <div class="collection_left">
+          <div class="collection_heading">
+            <div class="wrapper">
+              <img src="images/section/banner_decoration-11.png" alt="">
+              <h2 class="title_01">
+                2023春夏質感款
+              </h2>
+              <img src="images/section/banner_decoration-11.png" alt="">
+            </div>
+            <h4 class="title_02">
+              職場休閒多功能穿搭系列
+            </h4>
+          </div>
+          <div class="shuffleme_wrapper xl-hide">
+            <a class="shuffle_a" href="">
+              <img src="images/section/HANA_shuffleme.png" alt class="shuffleme">
+            </a>
+            <p class="text shuffle">
+              SHUFFLE ME
+            </p>
+          </div>
+        </div>
+        <div class="container_2">
+          <div class="swiper tranding-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/collective/collection-13.png" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Special Pizza
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/collective/collection-14.png" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Meat Ball
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/collective/collection-15.png" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Burger
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/collective/collection-16.png" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Frish Curry
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+            </div>
+
+            <div class="tranding-slider-control">
+              <!-- <div class="swiper-button-prev slider-arrow">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+              </div>
+              <div class="swiper-button-next slider-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div> -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="collection_right">
+          <div class="collection_slides">
+            <div class="collection_slide slide_one">
+              <a class="collection-img-link link-width w-inline-block" href="#">
+                <div class="collection_slide_content">
+                  <img src="/images/collective/collective1.jpeg" alt class="image one">
+                  <img src="/images/collective/collective2.jpeg" alt class="image two">
+                  <div class="image_description">
+                    <h3 class="description">Lorem ipsum dolor sit amet</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection_slide slide_two">
+              <a class="collection-img-link link-width w-inline-block" href=" #">
+                <div class="collection_slide_content">
+                  <img src="/images/collective/collective2.jpeg" alt class="image one">
+                  <img src="/images/collective/collective3.jpeg" alt class="image two">
+                  <div class="image_description">
+                    <h3 class="description">Lorem ipsum dolor sit amet</h3>
+                  </div>
+                </div>
+              </a>order:3;
+            </div>
+            <div class="collection_slide slide_three">
+              <a class="collection-img-link link-width w-inline-block" href=" #">
+                <div class="collection_slide_content">
+                  <img src="/images/collective/collective3.jpeg" alt class="image one">
+                  <img src="/images/collective/collective4.jpeg" alt class="image two">
+                  <div class="image_description">
+                    <h3 class="description">Lorem ipsum dolor sit amet</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="collection_slide slide_four">
+              <a class="collection-img-link link-width w-inline-block" href=" #">
+                <div class="collection_slide_content">
+                  <img src="/images/collective/collective4.jpeg" alt class="image one">
+                  <img src="/images/collective/collective1.jpeg" alt class="image two">
+                  <div class="image_description">
+                    <h3 class="description">Lorem ipsum dolor sit amet</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <section id="newin">
+      <div class="container">
+        <!-- <nav>
+            <ul>
+                <li class="current"><a href="#">All projects</a></li>
+                <li><a href="#">Front-end</a></li>
+                <li><a href="#">Back-end</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Design</a></li>              
+            </ul>
+        </nav> -->
+        <div id="projects">
+          <!-- <h1 class="heading">All Projects</h1> -->
+          <ul id="gallery">
+            <li><a class="gallery_a image1 smoove_1" data-move-x="-100px" data-move-y="-100px" href="#"><img
+                  src="images/newin/newin-13.png"></a></li>
+            <li><a class="gallery_a image2 smoove_1" data-move-x="100px" data-move-y="-100px" href="#"><img
+                  src="images/newin/newin-14.png"></a></li>
+            <li class="back-end">
+              <div class="title">
+                <img class="decoration" src="images/section/banner_decoration-11.png">
+                <h2>本季新品上市</h2>
+                <img class="decoration" src="images/section/banner_decoration-11.png">
+              </div>
+              <div class="subtitle">
+                <a href="#">
+                  <h2>Click Here <i class="fa-solid fa-angles-right"></i></h2>
+                </a>
+              </div>
+            </li>
+            <li><a class="gallery_a image3 smoove_1" data-move-y="100px" data-move-x="-200px" href="#"><img
+                  src="images/newin/newin-15.png"></a></li>
+            <li><a class="gallery_a image4 smoove_1" data-move-y="100px" data-move-x="100px" href="#"><img
+                  src="images/newin/newin-16.png"></a>
+            </li>
+            <li><a class="gallery_a image5 smoove_1" data-move-y="100px" data-move-x="200px" href="#"><img
+                  src="images/newin/newin-17.png"></a></li>
+          </ul>
+        </div>
+        <!-- modal gallery -->
+        <div class="gallery">
+          <a class="close" href="#">
+            <i>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </i>
+          </a>
+          <img src="">
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div class="icon">
+        <a class="icon-fb" href="#"></a>
+        <a class="icon-ig" href="#"></a>
+        <a class="icon-line" href="#"></a>
+      </div>
+      <div class="title">
+        <a href="#">
+          <h2>最新消息</h2>
+        </a>
+        <a href="#">
+          <h2>常見問題</h2>
+        </a>
+        <a href="#">
+          <h2>售後服務</h2>
+        </a>
+      </div>
+      <p class="contact">客服時間：Mon.-Fri. 08:30AM - 05:30PM<br>
+        TEL：0903-372-802<br>
+        E-mail：angel19960619@gmail.com</p>
+      <p class="rights_claim">2023 HANA SHOP. All Rights Reserved.</p>
+    </div>
+    <div class="gotop">
+      <i class="fa-solid fa-angle-up"></i>
+    </div>
+  </footer>
+  <!-- 匯入JQUERY  -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <!-- 匯入boostrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- 匯入smoove  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+  <!-- 匯入fontawesome js -->
+  <script src="js/all.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="libs/swiper/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/hana.js"></script>
+</body>
+
+</html>
